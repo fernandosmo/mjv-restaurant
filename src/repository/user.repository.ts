@@ -12,6 +12,7 @@ class UserRepository {
 
     async create(user: IUser) {
       const employerCodeSeq: any = await SequencyEmployerCode.findOne()
+      console.log(employerCodeSeq);
       
       if (!employerCodeSeq) {
         SequencyEmployerCode.create({seq:1})
@@ -20,9 +21,9 @@ class UserRepository {
       
         return User.create(userToCreate);
       }
-      const employerCode = employerCodeSeq!.seq + 1
+      const employerCode: number = employerCodeSeq!.seq + 1
 
-      SequencyEmployerCode.updateOne((employerCodeSeq!.id), employerCode )
+      await SequencyEmployerCode.updateOne(({_id: employerCodeSeq!.id}), { seq: employerCode } )
 
       const userToCreate = {...user, employerCode: employerCode}
       

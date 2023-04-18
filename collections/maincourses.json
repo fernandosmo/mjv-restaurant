@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "643e20dd5036c159ae6186d7"
+  },
+  "item": "Cordon Bleu",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.211Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2023-04-18T04:47:46.507Z"
+  },
+  "deletedAt": {
+    "$date": "2023-04-18T04:47:55.646Z"
+  }
+},{
+  "_id": {
+    "$oid": "643e20e25036c159ae6186d9"
+  },
+  "item": "Cordon Bleu",
+  "price": 57.9,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.211Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8667a90548153757e891"
+  },
+  "item": "Butter Chicken",
+  "price": 32.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8674a90548153757e893"
+  },
+  "item": "Spicy Pork Vindaloo",
+  "price": 37.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e86a6a90548153757e895"
+  },
+  "item": "Grilled chicken with fresh cherry salsa",
+  "price": 37.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e86e5a90548153757e897"
+  },
+  "item": "Chicken masala",
+  "price": 43.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e870fa90548153757e899"
+  },
+  "item": "Lamb bolognese with feta and mint",
+  "price": 44.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8783a90548153757e89b"
+  },
+  "item": "Marmalade glazed gammon",
+  "price": 48.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e87c3a90548153757e89d"
+  },
+  "item": "Beef stew",
+  "price": 41.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.269Z"
+  },
+  "__v": 0
+}]

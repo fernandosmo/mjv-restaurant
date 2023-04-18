@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "643e200b5036c159ae6186ca"
+  },
+  "item": "Caesar",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.214Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2023-04-18T04:44:30.724Z"
+  },
+  "deletedAt": {
+    "$date": "2023-04-18T04:44:44.061Z"
+  }
+},{
+  "_id": {
+    "$oid": "643e200c5036c159ae6186cc"
+  },
+  "item": "Caesar",
+  "price": 18.5,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.214Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e85f2a90548153757e889"
+  },
+  "item": "Shrimp Cobb Salad with Dijon Dressing",
+  "price": 37.5,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.271Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8609a90548153757e88b"
+  },
+  "item": "Little Gem Wedge Salad with Blue Cheese & Herb Dressing",
+  "price": 24.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.271Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8621a90548153757e88d"
+  },
+  "item": "Apple-Cranberry Spinach Salad with Goat Cheese",
+  "price": 27.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.271Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e862fa90548153757e88f"
+  },
+  "item": "Crab Louie Salad",
+  "price": 41.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.271Z"
+  },
+  "__v": 0
+}]

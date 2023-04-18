@@ -5,7 +5,7 @@ export interface ISequencyEmployerCode {
 }
 
 export const counterSchema = new Schema({
-  seq: { type: Number },
+  seq: { type: Number, required: true },
 });
 
 export const SequencyEmployerCode = model('SequencyEmployerCode', counterSchema);

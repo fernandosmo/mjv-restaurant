@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "643e8486a90548153757e86d"
+  },
+  "role": 1,
+  "name": "Fernando Silva",
+  "password": "$2b$10$fBE7/MWyzf99yu0aIIY.IOQBwQCDvawlIN3zPiJgxeWXxKeUobFoi",
+  "employerCode": 1,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.254Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2023-04-18T11:53:18.741Z"
+  }
+},{
+  "_id": {
+    "$oid": "643e848aa90548153757e872"
+  },
+  "role": 1,
+  "name": "Joana",
+  "password": "$2b$10$Bev8rrc.2E3pHDlUBYssYeFK3OaHmyqFDUV0v1kuPTf8HTqxLGMz6",
+  "employerCode": 2,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.254Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8492a90548153757e876"
+  },
+  "role": 2,
+  "name": "Diane",
+  "password": "$2b$10$6Y6OoaJVM6V4dX2b/22pGO8wYM0m0S8eDhQS.U3Jwfv5/5JWKKNcS",
+  "employerCode": 3,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.254Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8499a90548153757e87a"
+  },
+  "role": 2,
+  "name": "Ban",
+  "password": "$2b$10$A7w0.Sdd9j19f/rw8yFXTuX95.YDOi1ZkPuw.U0PZwXtIRQTpbAeG",
+  "employerCode": 4,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.254Z"
+  },
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-04-18T11:53:33.879Z"
+  }
+}]

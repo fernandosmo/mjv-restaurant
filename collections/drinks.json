@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "643e22225036c159ae6186f0"
+  },
+  "item": "Pink Lemonade",
+  "price": 19.99,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.204Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2023-04-18T04:53:03.151Z"
+  },
+  "deletedAt": {
+    "$date": "2023-04-18T04:53:09.993Z"
+  }
+},{
+  "_id": {
+    "$oid": "643e22225036c159ae6186f2"
+  },
+  "item": "Pink Lemonade",
+  "price": 18.9,
+  "createdAt": {
+    "$date": "2023-04-18T04:41:43.204Z"
+  },
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-04-18T12:14:38.801Z"
+  }
+},{
+  "_id": {
+    "$oid": "643e8906a90548153757e8bb"
+  },
+  "item": "Pink Lemonade",
+  "price": 18.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e890da90548153757e8bd"
+  },
+  "item": "Malibu beach",
+  "price": 28.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8917a90548153757e8bf"
+  },
+  "item": "Malibu beach",
+  "price": 24.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8921a90548153757e8c1"
+  },
+  "item": "Margarita",
+  "price": 24.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8929a90548153757e8c3"
+  },
+  "item": "Mojito",
+  "price": 24.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8935a90548153757e8c5"
+  },
+  "item": "Homemade Lemonade",
+  "price": 18.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e8940a90548153757e8c7"
+  },
+  "item": "Easy Fruit & Soda Punch",
+  "price": 18.9,
+  "createdAt": {
+    "$date": "2023-04-18T11:51:34.266Z"
+  },
+  "__v": 0
+}]
