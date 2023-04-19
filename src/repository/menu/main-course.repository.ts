@@ -1,6 +1,5 @@
 import { IMainCourse, MainCourse } from "../../models/menu/main-course.model";
 
-
 class MainCourseRepository {
     getAll() {
         return MainCourse.find({deletedAt:{$exists:false}});
@@ -16,9 +15,9 @@ class MainCourseRepository {
     }
 
     async update(id: string, mainCourse: Partial<IMainCourse>) {
-        const mainCourseToDelete = await this.getById(id)
+        const mainCourseToUpdate = await this.getById(id)
         
-        if(!mainCourseToDelete) {
+        if(!mainCourseToUpdate) {
             throw new Error(`Main course not found`)
         }
         return MainCourse.updateOne({ _id: id, deletedAt:{$exists:false} }, { $set: mainCourse });

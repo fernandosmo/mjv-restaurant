@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "643f7c92774d8f917a81633f"
+  },
+  "code": 1,
+  "seats": 2,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddd74e3817474984cca"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddf74e3817474984cd4"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddf74e3817474984cdf"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7de074e3817474984ceb"
+      }
+    }
+  ],
+  "__v": 4,
+  "paid": true,
+  "startServiceDate": {
+    "$date": "2023-04-19T05:36:24.184Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-19T05:36:45.502Z"
+  },
+  "endServiceDate": {
+    "$date": "2023-04-19T05:36:45.502Z"
+  }
+},{
+  "_id": {
+    "$oid": "643f7c93774d8f917a816344"
+  },
+  "code": 2,
+  "seats": 2,
+  "occupied": true,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": null,
+  "__v": 2,
+  "paid": false,
+  "startServiceDate": {
+    "$date": "2023-04-19T05:34:31.505Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-19T05:34:31.505Z"
+  },
+  "endServiceDate": {
+    "$date": "2023-04-19T05:31:56.741Z"
+  },
+  "deletedAt": {
+    "$date": "2023-04-19T05:36:14.362Z"
+  }
+},{
+  "_id": {
+    "$oid": "643f7c93774d8f917a816348"
+  },
+  "code": 3,
+  "seats": 2,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c94774d8f917a81634c"
+  },
+  "code": 4,
+  "seats": 2,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c97774d8f917a816350"
+  },
+  "code": 5,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c98774d8f917a816354"
+  },
+  "code": 6,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9b774d8f917a816358"
+  },
+  "code": 7,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9b774d8f917a81635c"
+  },
+  "code": 8,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9c774d8f917a816360"
+  },
+  "code": 9,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9d774d8f917a816364"
+  },
+  "code": 10,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9e774d8f917a816368"
+  },
+  "code": 11,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7c9e774d8f917a81636c"
+  },
+  "code": 12,
+  "seats": 4,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7ca1774d8f917a816370"
+  },
+  "code": 13,
+  "seats": 6,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7ca2774d8f917a816374"
+  },
+  "code": 14,
+  "seats": 6,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f7ca7774d8f917a816378"
+  },
+  "code": 15,
+  "seats": 8,
+  "occupied": false,
+  "bill": 0,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "orderItems": [],
+  "__v": 0
+}]

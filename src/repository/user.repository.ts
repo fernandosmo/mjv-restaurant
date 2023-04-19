@@ -12,7 +12,6 @@ class UserRepository {
 
     async create(user: IUser) {
       const employerCodeSeq: any = await SequencyEmployerCode.findOne()
-      console.log(employerCodeSeq);
       
       if (!employerCodeSeq) {
         SequencyEmployerCode.create({seq:1})
@@ -31,9 +30,9 @@ class UserRepository {
     }
 
     async update(employerCode: number, user: Partial<IUser>) {
-        const userToDelete = await this.getByEmployerCode(employerCode)
+        const userToUpdate = await this.getByEmployerCode(employerCode)
         
-        if(!userToDelete) {
+        if(!userToUpdate) {
             throw new Error(`User doesn't exist`)
         }
         return User.updateOne({ employerCode, deletedAt:{$exists:false} }, { $set: user });

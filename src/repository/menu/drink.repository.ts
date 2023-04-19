@@ -1,6 +1,5 @@
 import { Drink, IDrink } from "../../models/menu/drink.model";
 
-
 class DrinkRepository {
     getAll() {
         return Drink.find({deletedAt:{$exists:false}});
@@ -16,9 +15,9 @@ class DrinkRepository {
     }
 
     async update(id: string, drink: Partial<IDrink>) {
-        const drinkToDelete = await this.getById(id)
+        const drinkToUpdate = await this.getById(id)
         
-        if(!drinkToDelete) {
+        if(!drinkToUpdate) {
             throw new Error(`Drink not found`)
         }
         return Drink.updateOne({ _id: id, deletedAt:{$exists:false} }, { $set: drink });

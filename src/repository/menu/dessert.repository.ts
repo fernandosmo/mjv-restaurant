@@ -1,6 +1,5 @@
 import { Dessert, IDessert } from "../../models/menu/dessert.model";
 
-
 class DessertRepository {
     getAll() {
         return Dessert.find({deletedAt:{$exists:false}});
@@ -16,9 +15,9 @@ class DessertRepository {
     }
 
     async update(id: string, dessert: Partial<IDessert>) {
-        const dessertToDelete = await this.getById(id)
+        const dessertToUpdate = await this.getById(id)
         
-        if(!dessertToDelete) {
+        if(!dessertToUpdate) {
             throw new Error(`Dessert not found`)
         }
         return Dessert.updateOne({ _id: id, deletedAt:{$exists:false} }, { $set: dessert });

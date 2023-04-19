@@ -1,6 +1,5 @@
 import { IWine, Wine } from "../../models/menu/wine.model";
 
-
 class WineRepository {
     getAll() {
         return Wine.find({deletedAt:{$exists:false}});
@@ -16,9 +15,9 @@ class WineRepository {
     }
 
     async update(id: string, wine: Partial<IWine>) {
-        const wineToDelete = await this.getById(id)
+        const wineToUpdate = await this.getById(id)
         
-        if(!wineToDelete) {
+        if(!wineToUpdate) {
             throw new Error(`Wine not found`)
         }
         return Wine.updateOne({ _id: id, deletedAt:{$exists:false} }, { $set: wine });

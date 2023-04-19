@@ -1,6 +1,5 @@
 import { IStarter, Starter } from "../../models/menu/starter.model";
 
-
 class StarterRepository {
     getAll() {
         return Starter.find({deletedAt:{$exists:false}});
@@ -16,9 +15,9 @@ class StarterRepository {
     }
 
     async update(id: string, starter: Partial<IStarter>) {
-        const starterToDelete = await this.getById(id)
+        const starterToUpdate = await this.getById(id)
         
-        if(!starterToDelete) {
+        if(!starterToUpdate) {
             throw new Error(`Starter not found`)
         }
         return Starter.updateOne({ _id: id, deletedAt:{$exists:false} }, { $set: starter });

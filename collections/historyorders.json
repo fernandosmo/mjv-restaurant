@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "643f7ded74e3817474984cf2"
+  },
+  "startServiceDate": {
+    "$date": "2023-04-19T05:36:24.184Z"
+  },
+  "orderItems": [
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddd74e3817474984cca"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddf74e3817474984cd4"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7ddf74e3817474984cdf"
+      }
+    },
+    {
+      "itemId": "643e8581a90548153757e884",
+      "quantity": 1,
+      "_id": {
+        "$oid": "643f7de074e3817474984ceb"
+      }
+    }
+  ],
+  "bill": 90,
+  "paid": true,
+  "createdAt": {
+    "$date": "2023-04-19T05:27:56.670Z"
+  },
+  "__v": 0
+}]
